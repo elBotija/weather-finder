@@ -29,7 +29,7 @@ class App extends Component {
         if( !city || !country ) return null
 
         const appId = '657fcea32def94dc2e8bf0610b743698'
-        const apiUrl = 'http://api.openweathermap.org/data/2.5/weather?'
+        const apiUrl = 'https://api.openweathermap.org/data/2.5/weather?'
         let getUrl = `${apiUrl}q=${city},${country}&APPID=${appId}`
 
         fetch(getUrl)

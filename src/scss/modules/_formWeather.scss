@@ -1,0 +1,16 @@
+.form-weather{
+    margin-bottom: 50px;
+    input{
+        width: calc(33% - 35px);
+        margin-left: 15px;
+        border: none;
+        height: 40px;
+        padding: 0 10px;
+    }
+    #submit{
+        background: #000000;
+        color: #fff;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}

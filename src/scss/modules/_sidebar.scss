@@ -1,0 +1,23 @@
+.sidebar{
+    background: #d8d5d5;
+    width: 40%;
+    .content{
+        width: 60%;
+        margin: 0 auto;
+        background: #d8d5d5;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        .logo{
+            height: 45px;
+            margin: 0 auto;
+            display: block;
+        }
+        .title{
+            font-size: 40px;
+        }
+        .description{
+            font-size: 22px;
+        }
+    }
+}
